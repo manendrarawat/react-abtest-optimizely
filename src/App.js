@@ -30,7 +30,7 @@ function App() {
     <OptimizelyProvider
       optimizely={optimizely}
       user={{
-        id: 'user104',
+        id: (Math.floor(Math.random() * 999999) + 100000).toString(),
       }}
     >
       <div className="App">
